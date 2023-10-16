@@ -4,6 +4,8 @@ function alterarStatus(id) {
     let botao = gameClicado.querySelector('.dashboard__item__button');
     let nomeJogo = gameClicado.querySelector('.dashboard__item__name');
 
+
+    //Mudanças no botão
     if (imagem.classList.contains('dashboard__item__img--rented')) {
         imagem.classList.remove('dashboard__item__img--rented');
         botao.classList.remove('dashboard__item__button--return');
